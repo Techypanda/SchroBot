@@ -1,0 +1,16 @@
+{
+  "name": "Schrodinger's-Dong",
+  "version": "1.0.0",
+  "description": "Does he have a dong?",
+  "main": "bot.js",
+  "author": "Techypanda",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Techypanda/SchrodingersDiscordBot.git"
+  },
+  "dependencies": {
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "winston": "^3.2.1"
+  }
+}
