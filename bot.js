@@ -131,11 +131,11 @@ function bitchscalee(server)
 function fuck(server, user)
 {
     if (server.subArgs.length == 0) {
-        putt("fuck what? " + user, server);
+        putt("fuck what? " + user.user, server);
     }
     else
     { // There has been stuff specified
-        putt("Yeh fuck " + server.subArgs.toString());
+        putt("Yeh fuck " + server.subArgs.toString(), server);
     }
 }
 function help(server)
