@@ -1,8 +1,9 @@
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
+const botID = "620914331424391188"
 const imgL = "./resources/images/"
-const functions = ["meaningoflife", "meme", "succ", "bitchscale", "fuck", "help", "minecrafttips"]; // This is the functions.
+const functions = ["meaningoflife", "meme", "succ", "bitchscale", "fuck", "help", "minecrafttips", "clean"]; // This is the functions.
 // Configure Bot
 initBot();
 var bot = new Discord.Client({
@@ -205,6 +206,9 @@ function menu(user, server)
                 break;
             case functions[6]:
                 randomMinecraftTip(server);
+                break;
+            case functions[7]:
+                clean(server);
                 break;
             default:
                 putt("Sorry I don't quite understand", server)
