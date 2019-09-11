@@ -128,7 +128,7 @@ function bitchscalee(server)
         putt(server.subArgs.toString() + " is " + bitchScale + " a bitch. \n ***Concerned About my math?: ((" + userShownMath + " / 101.0) * 100) + %***", server);
     }
 }
-function fuck(server)
+function fuck(server, user)
 {
     if (server.subArgs.length == 0) {
         putt("fuck what? " + user, server);
@@ -198,7 +198,7 @@ function menu(user, server)
                 bitchscalee(server);
                 break;
             case functions[4]:
-                fuck(server);
+                fuck(server, user);
                 break;
             case functions[5]:
                 help(server);
