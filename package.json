@@ -10,7 +10,7 @@
     "url": "https://github.com/Techypanda/SchrodingersDiscordBot.git"
   },
   "dependencies": {
-    "discord.io": "github:woor/discord.io#gateway_v6",
+    "discord.io": "github:izy521/discord.io",
     "file-system": "^2.2.2",
     "winston": "^3.2.1"
   }
